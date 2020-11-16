@@ -1,5 +1,5 @@
 {
-  "name": "ui-console",
+  "name": "ui-logs",
   "version": "1.0.0",
   "description": "Console log in your app's UI",
   "main": "UIConsole.js",

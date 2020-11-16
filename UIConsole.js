@@ -11,6 +11,7 @@ const UIConsole = {
       this.alert.text = JSON.stringify(text)
       timeout && (this.timeout = timeout)
       this.sendAlert()
+      console.log("%cUIC", "color: #975A16; background: #FFFFF0; border: 1px solid #FAF089; font-weight: bold; padding: .25rem .5rem; font-size:12px; border-radius: 4px;", text)
     }
   },
 
@@ -32,6 +33,7 @@ const UIConsole = {
     node.style.border = '1px solid #FAF089'
     node.style.fontWeight = 'bold'
     node.style.boxShadow = '0 6px 12px -8px #707070'
+    node.style.zIndex = '999999'
 
     node.id = 'iOSLoggerAlert'
     node.innerHTML = this.alert.text
