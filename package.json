@@ -1,8 +1,8 @@
 {
-  "name": "ui-logs",
+  "name": "ui-logger",
   "version": "1.0.0",
-  "description": "Console log in your app's UI",
-  "main": "UIConsole.js",
+  "description": "Console log in your app's UI. Perfect for seeing console logs on iPhone",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
