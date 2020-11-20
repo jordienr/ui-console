@@ -1,5 +1,5 @@
 {
-  "name": "ui-logger",
+  "name": "ui-console-log",
   "version": "1.1.0",
   "description": "Console log in your app's UI. Perfect for seeing console logs on iPhone",
   "main": "index.js",
