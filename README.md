@@ -12,7 +12,7 @@ npm i -D ui-console-log
 ```
 
 ```js
-import 'ui-logger'
+import 'ui-console-log'
 
 UIConsole.log('Hello world')
 
