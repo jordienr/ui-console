@@ -8,7 +8,7 @@ If you ever wanted to be able to console log to debug your app in your iPhone th
 
 
 ```
-npm i -D ui-logger
+npm i -D ui-console-log
 ```
 
 ```js
